@@ -1,0 +1,26 @@
+------------------document1-----------------------
+In reality each document will be of different size. On a large document the frequency of the terms will be
+much higher than the smaller ones. Hence we need to normalize the document based on its size. A simple
+trick is to divide the term frequency by the total number of terms. For example in Document 1 the term game
+occurs two times. The total number of terms in the document is 10. Hence the normalized term frequency is
+2 / 10 = 0.2. Given below are the normalized term frequency for all the documents.
+
+------------------document2-----------------------
+The main purpose of doing a search is to find out relevant documents matching the query. In the first step
+all terms are considered equally important. In fact certain terms that occur too frequently have little
+power in determining the relevance. We need a way to weigh down the effects of too frequently occurring
+terms. Also the terms that occur less in the document can be more relevant. We need a way to weigh up the
+ffects of less frequently occurring terms. Logarithms helps us to solve this problem.
+
+------------------document3-----------------------
+For each term in the query multiply its normalized term
+frequency with its IDF on each document. In Document1 for the
+term life the normalized term frequency is 0.1 and its IDF is
+1.405507153. Multiplying them together we get 0.140550715 (0.1
+* 1.405507153). Given below is TF * IDF calculations for life
+and learning in all the documents.
+
+------------------documentListFile-----------------------
+document1.txt
+document2.txt
+document3.txt
