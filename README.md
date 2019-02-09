@@ -8,4 +8,4 @@ Retweets and Tweets frequency based on Followers/Starhood:
 ![Screenshot](ScreenShot1.png)
 
 Topics discussed among Top 10 Users
-![Screenshot](ScreenShot2.png)
+![Screenshot](Screenshot2.png)
