@@ -5,7 +5,7 @@ Paper Links:
 2. https://scholarspace.manoa.hawaii.edu/handle/10125/50161
 <br>
 Retweets and Tweets frequency based on Followers/Starhood:<br>
-![Screenshot](Screenshot1.png)
+![Screenshot](ScreenShot1.png)
 <br>
 Topics discussed among Top 10 Users<br>
-![Screenshot](Screenshot2.png)
+![Screenshot](ScreenShot2.png)
